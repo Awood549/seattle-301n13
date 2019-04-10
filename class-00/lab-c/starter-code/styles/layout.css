@@ -1,0 +1,43 @@
+
+nav, article, aside, footer section {
+    margin: 0 auto;
+    width: 900px;
+  }
+
+  nav {
+    margin-top: 25px;
+  }
+  hr {
+    clear: both;
+    border: 0;
+    height: 13px;
+    background-image: url('../img/hr.png');
+  }
+
+  main p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-indent: 30px;
+    margin: 20px 0px;
+  }
+
+  aside {
+    padding-top: 30px;
+    padding-bottom: 60px
+  }
+
+  aside img {
+    float: left;
+  }
+
+  #logo img {
+    float: left;
+  }
+
+  footer section p{
+    padding: 50px 0;
+    line-height: 1.5em;
+    text-align: center;
+    color: #aaa;
+  }
