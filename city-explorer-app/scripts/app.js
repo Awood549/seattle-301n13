@@ -4,7 +4,7 @@ let __API_URL__;
 let GEOCODE_API_KEY;
 
 function setEventListeners() {
-  $('#url-form').on('submit', function (event) {
+  $('#url-form').on('submit ', function (event) {
     event.preventDefault();
     __API_URL__ = $('#back-end-url').val();
     $('#url-form').addClass('hide');
